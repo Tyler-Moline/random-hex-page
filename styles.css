@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: "Shadows Into Light", cursive;
+}
+body .main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .main-wrapper p {
+  margin-top: 30px;
+  font-size: 30px;
+}
+body .main-wrapper button {
+  font-family: "Shadows Into Light", cursive;
+  border-radius: 30px;
+  height: 50px;
+  width: 300px;
+  font-size: 30px;
+  transition: ease-in-out 1s;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+body .main-wrapper button:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=styles.css.map */
