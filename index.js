@@ -24,6 +24,7 @@ async function randomHex() {
       newP.setAttribute("id", "hexCode");
       theMainBoi.appendChild(newP);
     }
+
     console.log(color);
   } catch (error) {
     console.log("error:", error);

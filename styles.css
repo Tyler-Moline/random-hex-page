@@ -4,6 +4,7 @@ body {
   justify-content: center;
   margin-top: 10%;
   font-family: "Shadows Into Light", cursive;
+  transition: ease-in-out 1.5s;
 }
 body .main-wrapper {
   display: flex;
@@ -17,11 +18,11 @@ body .main-wrapper p {
 }
 body .main-wrapper button {
   font-family: "Shadows Into Light", cursive;
-  border-radius: 30px;
+  border-radius: 10px;
   height: 50px;
   width: 300px;
   font-size: 30px;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
   border: none;
   background-color: black;
   color: white;
@@ -29,4 +30,6 @@ body .main-wrapper button {
 }
 body .main-wrapper button:hover {
   transform: scale(1.1);
+  border: 1px solid white;
+  border-radius: 30px;
 }/*# sourceMappingURL=styles.css.map */
